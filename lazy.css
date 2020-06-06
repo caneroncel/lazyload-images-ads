@@ -1,0 +1,31 @@
+body {
+    font-family: "Segoe UI", "Open Sans", Arial, sans-serif;
+}
+
+.viewport {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.viewport .image {
+    overflow: hidden;
+    height: 800px;
+    background: #EEEEEE;
+    border: 4px solid #EEEEEE;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.viewport .image img {
+    height: 1200px;
+}
+
+.viewport .ad {
+    background: #E91E63;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border-radius: 3px;
+}
